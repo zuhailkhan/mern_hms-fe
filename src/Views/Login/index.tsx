@@ -5,7 +5,7 @@ export interface IProps {}
 
 const Login:React.FC<IProps> = (props) => {
   return (
-    <div className="flex justify-center h-screen items-center">
+    <div className="flex justify-center items-center h-[80vh]">
       <LoginBox/>
     </div>
   )
