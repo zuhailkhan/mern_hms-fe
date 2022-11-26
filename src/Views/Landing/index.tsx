@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export interface IProps {}
 
 const Landing:React.FC<IProps> = (props) => {
+  
+  
   return (
     <div>This is the landing</div>
   )
